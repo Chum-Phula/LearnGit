@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+}
+
+img{
+    width: 500px;
+    height: 500px;
+    transition: 1s;
+
+}
+img:hover{
+    transition: 1s;
+    transform: rotate(120deg);
+}
